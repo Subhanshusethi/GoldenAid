@@ -11,7 +11,7 @@ GoldenAid is an on-device, multimodal AI assistant designed for emergency road a
   - **Vision:** Uses YOLOv11 for person detection and MediaPipe for posture/pose analysis (e.g., detecting if a person is lying down or in an unnatural position).
   - **Voice:** Hands-free operation with speech-to-text input and text-to-speech spoken instructions.
 - **Gemma 4 E2B:** Powered by Google's Gemma 4 2B Instruct model via LiteRT-LM, acting as the core reasoning engine to assess triage levels (RED, YELLOW, GREEN, DECEASED) and provide step-by-step first aid instructions.
-- **Smart Runtime Download:** The app is lightweight (~20MB APK). The heavy 2.6GB Gemma model is downloaded automatically from HuggingFace on first launch, complete with background resume support.
+- **Smart Runtime Download:** The app is lightweight. The heavy 2.6GB Gemma model is downloaded automatically from HuggingFace on first launch, complete with background resume support.
 - **State Stability:** Built-in safeguards to prevent triage oscillation (e.g., once marked RED, it stays RED) and automatic conversation resets to prevent AI hallucination over long periods.
 
 ## Tech Stack
