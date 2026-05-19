@@ -72,7 +72,7 @@ While the production Android client currently utilizes the base Gemma 4 E2B weig
 - **Dataset:** `i-am-mushfiq/FirstAidQA` (5,500 QA pairs covering trauma, bleeding, and burns).
 - **Framework:** Unsloth + QLoRA.
 - **Configuration:** 4-bit quantization, `r=16`, `lora_alpha=16`, targeting `q_proj`, `k_proj`, `v_proj`, `o_proj`.
-- **Training Environment:** Kaggle P100 GPU, 3 epochs, LR 2e-4.
+- **Training Environment:** Kaggle GPU T4 x 2, 3 epochs, LR 2e-4.
 
 This fine-tuning shifts the model's tone from informational ("It is advisable to apply pressure...") to directive ("Press your hand hard on the wound right now").
 
