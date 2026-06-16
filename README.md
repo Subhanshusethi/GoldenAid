@@ -1,5 +1,7 @@
 # GoldenAid: On-Device Multimodal Bystander Triage System
 
+Demo Video:[YouTube](https://youtu.be/QtHA8KkiIGw?si=T6isd4L7TUwlTLuW)
+
 GoldenAid is a native Android application designed to provide real-time, conversational medical triage assistance during high-stress emergencies, specifically road traffic accidents. By combining edge-deployed Large Language Models (Gemma 4), computer vision (YOLOv11), and posture analysis (MediaPipe), GoldenAid acts as a digital first-responder to guide untrained bystanders through critical first-aid protocols before paramedics arrive.
 
 Crucially, the entire inference pipeline runs **100% on-device** with zero cloud dependency, ensuring absolute privacy and zero latency in areas with poor network connectivity.
